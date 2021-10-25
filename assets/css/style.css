@@ -1,0 +1,71 @@
+body {
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color:#5bc2e7
+}
+
+/*header styling*/
+#style-header {
+    display: inline;
+    height: 300px;
+    text-align-last: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color:#5bc2e7;
+    border-bottom: 1px;
+
+}
+
+
+#style-header li {
+    display: inline;
+    font-size: 25px;
+    margin-left: 60px;
+    color: inherit;
+    line-height: 205px;
+}
+
+
+ a:hover {
+     color: #fafafa;
+     background-color: #5bc2e7;
+     border-color: #fafafa;
+
+
+}
+#logo-aaki {
+    background: url(/assets/images/Aaki\ Logo.png) no-repeat center center;
+    height: 210px;
+    margin: 0;
+    width: 30%;
+    line-height: 75px;
+    float: left;
+}
+
+
+
+
+/* Main image section (other option <img src="/assets/images/Aáki sky palm tree.png" style="width: 100%;">*/
+
+#palmtrees-area {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#sky-palmtrees-image {
+    background: url(/assets/images/Aáki\ sky\ palm\ tree.png) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+    overflow: hidden;
+
+
+
+
+}
