@@ -16,8 +16,8 @@ body {
 
 /*header styling*/
 #style-header {
-    display: inline;
-    height: 300px;
+    
+    height: 200px;
     text-align-last: center;
 }
 
@@ -27,7 +27,7 @@ body {
     border-bottom: 1px;
 
 }
-
+ 
 
 #style-header li {
     display: inline;
@@ -57,6 +57,9 @@ body {
     float: left;
 }
 
+.social-media {
+    
+}
 
 
 
