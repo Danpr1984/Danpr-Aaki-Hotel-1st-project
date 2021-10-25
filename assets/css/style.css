@@ -1,9 +1,17 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
+        
+
 body {
+    font-family: 'Cormorant Infant';
+
     background-color: none;
     margin: 0;
     padding: 0;
     border: none;
     color:#5bc2e7
+
+
 }
 
 /*header styling*/
@@ -27,13 +35,16 @@ body {
     margin-left: 60px;
     color: inherit;
     line-height: 205px;
+    
 }
 
 
- a:hover {
+ #menu a:hover {
      color: #fafafa;
      background-color: #5bc2e7;
      border-color: #fafafa;
+     border: 2px solid;
+     
 
 
 }
@@ -57,15 +68,21 @@ body {
 
 }
 
-#sky-palmtrees-image {
-    background: url(/assets/images/Aáki\ sky\ palm\ tree.png) no-repeat center center;
+#main-image {
+    background: url(/assets/images/Aáki\ Entrance.png) no-repeat center center;
     background-size: cover;
     height: 600px;
     width: 100%;
 
     overflow: hidden;
+}
 
-
-
-
+#nahualt {
+    background-color: rgba(91, 194, 231, 0.3);
+    width:30%;
+    color: #fafafa;
+    margin-top: 500px;  
+    margin-left: 60%;
+    text-align: center;
+    font-style: italic;
 }
