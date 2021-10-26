@@ -115,7 +115,7 @@ span {
 /*----Get here, google maps section*/
 
 #get-here iframe {
-    height: 600px;
+    height: 500px;
     width:80%;
     margin:auto;
     
@@ -130,6 +130,13 @@ span {
     margin-left: 10%;
 }
 
+
+/*----footer-----*/
+
+footer li {
+    display: inline;
+}
+}
     
 
 }
