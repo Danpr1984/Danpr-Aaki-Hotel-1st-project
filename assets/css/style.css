@@ -31,7 +31,7 @@ body {
 
 #style-header li {
     display: inline;
-    font-size: 25px;
+    font-size: 23px;
     margin-left: 60px;
     color: inherit;
     line-height: 205px;
@@ -57,8 +57,14 @@ body {
     float: left;
 }
 
-.social-media {
+span {
+    font-size: 30px;
+    margin-left: 8px;
     
+}
+
+#menu #contact {
+    font-size: 100%;
 }
 
 
@@ -72,7 +78,7 @@ body {
 }
 
 #main-image {
-    background: url(/assets/images/Aáki\ Entrance.png) no-repeat center center;
+    background: url(/assets/images/Aaki\ Entrance.jpg) no-repeat center center;
     background-size: cover;
     height: 600px;
     width: 100%;
