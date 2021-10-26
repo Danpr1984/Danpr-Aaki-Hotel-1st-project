@@ -112,3 +112,27 @@ span {
     
 }
 
+/*----Get here, google maps section*/
+
+#get-here iframe {
+    height: 600px;
+    width:80%;
+    margin:auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#get-here h2 {
+    margin-left: 10%;
+}
+
+    
+
+}
+
+
+
