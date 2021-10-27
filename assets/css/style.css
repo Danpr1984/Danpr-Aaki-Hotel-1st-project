@@ -1,67 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
-      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
-        
 
 body {
-    font-family: 'Cormorant Infant';
+    font-family: 'arial-light';
 
     background-color: none;
     margin: 0;
     padding: 0;
     border: none;
-    color:black
-    
-
-
+    color: black
 }
 
 /*header styling*/
 #style-header {
-    
+
     height: 200px;
     text-align-last: center;
-    
+    margin: auto;
+
 
 }
 
 #menu a {
     text-decoration: none;
     color: black
-    
 }
- 
+
 
 #style-header li {
     display: inline;
     font-size: 23px;
     margin-left: 60px;
     line-height: 205px;
-      
-}
-
-
- #menu a:hover {
-     color: #fafafa;
-     background-color: #5bc2e7;
-     border-color: #fafafa;
-     border: 2px solid;
-     
-
 
 }
+
+
+#menu a:hover {
+    color: #fafafa;
+    background-color: #5bc2e7;
+    border-color: #fafafa;
+    border: 2px solid;
+
+
+
+}
+
 #logo-aaki {
     background: url(/assets/images/Aaki\ Logo.png) no-repeat center center;
-    height: 210px;
-    margin: 0;
-    width: 30%;
-    line-height: 75px;
+    height: 200px;
+    margin-left: 0;
+    width: 25%;
+    
     float: left;
 }
 
 span {
     font-size: 30px;
     margin-left: 8px;
-    
+
 }
 
 #menu #contact {
@@ -90,9 +87,9 @@ span {
 
 #nahualt {
     background-color: rgba(91, 194, 231, 0.3);
-    width:30%;
+    width: 30%;
     color: #fafafa;
-    margin-top: 500px;  
+    margin-top: 500px;
     margin-left: 60%;
     text-align: center;
     font-style: italic;
@@ -108,20 +105,22 @@ span {
     font-size: 20px;
     overflow: hidden;
     margin-top: -10%;
-    
-    
+
+
 }
 
 /*----Get here, google maps section*/
 
 #get-here iframe {
     height: 500px;
-    width:80%;
-    margin:auto;
-    
+    width: 80%;
+    margin: auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
+    ;
 
 
 }
@@ -133,13 +132,33 @@ span {
 
 /*----footer-----*/
 
+#lower {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+
+}
+
 footer li {
+    list-style-type: none;
+    height:30%;
     display: inline;
-}
-}
+    font-size: 20px;
+    margin-top: -10%;
     
-
+    
 }
 
+.f-icon a {
+    font-size: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color:black
+    
+}
 
-
+footer a:hover {
+    background-color: #5bc2e7;
+    color:#fafafa;
+}
