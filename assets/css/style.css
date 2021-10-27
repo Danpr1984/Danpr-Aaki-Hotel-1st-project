@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
 
+
 body {
     font-family: 'arial-light';
 
@@ -23,8 +24,14 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: black
+    color: black;
+    
 }
+
+nav ul li { 
+    position:relative;
+} 
+
 
 
 #style-header li {
@@ -32,6 +39,7 @@ body {
     font-size: 23px;
     margin-left: 60px;
     line-height: 205px;
+   
 
 }
 
@@ -39,12 +47,17 @@ body {
 #menu a:hover {
     color: #fafafa;
     background-color: #5bc2e7;
-    border-color: #fafafa;
+    border-color: gray;
     border: 2px solid;
-
-
-
 }
+
+.active {
+    border-bottom: 1px solid rgb(39, 36, 36);
+}
+
+/*-----Rooms submenu-----*/
+
+
 
 #logo-aaki {
     background: url(/assets/images/Aaki\ Logo.png) no-repeat center center;
@@ -162,3 +175,7 @@ footer a:hover {
     background-color: #5bc2e7;
     color:#fafafa;
 }
+
+
+/*------Style spaces.html-----*/
+
