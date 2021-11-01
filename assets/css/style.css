@@ -272,7 +272,7 @@ footer a:hover {
 
 #photos-1  img {
 
-    border: 2px solid blanchedalmond;
+    
     border-radius: 5px;
 
 }
@@ -289,20 +289,73 @@ hr {
 
     /*-----Amenities section-----*/
 
+    #photos-1 {
+        margin-top: -20px;
+    }
+
     #amenities-1 {
 
-        height: 600px;
-        background-color: chocolate;
+        height: 500px;
+
         position: relative;
+        margin-top: 0%;
+        
         
 
     }
 
+   
    #am-left {
        
-       width: 33%;
-       padding-top: 30px;
+       width: 43%;
+       padding-top: 12px;
        float: left;
+       margin-left: 75px;
+
+       border: 1px solid black;
+       border-radius: 5px;
+       text-align: center;
+       margin-top: 100px;
+       
+       height: 300px;
+       
+       
    }
 
    
+
+   #am-right {
+       
+    width: 43%;
+    padding-top: 12px;
+    float: right;
+    margin-right: 75px;
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 100px;
+    
+    height: 300px;
+    display: inline;
+    
+    
+}
+
+h3 {
+    text-decoration-line: underline;
+    
+}
+
+#am-right #wifi-info  h3{
+    color:black;
+    padding-top: 30%;
+    
+}
+
+#am-left #parking h3 {
+
+    padding-top: 30%;
+}
+
+
