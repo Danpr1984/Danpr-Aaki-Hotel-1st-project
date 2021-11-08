@@ -185,6 +185,7 @@ ul li:hover ul li {
     font-size: 20px;
     overflow: hidden;
     margin-top: -10%;
+   
 
 
 }
@@ -200,7 +201,7 @@ ul li:hover ul li {
     justify-content: center;
     align-items: center;
     margin-bottom: 10%;
-    ;
+    
 
 
 }
@@ -416,3 +417,34 @@ h3 {
 }
 
 
+/*---------Bar & Restaurant--------*/
+
+#fb-photo {
+
+    margin-top: 50px;
+    
+    column-count: 6;
+    line-height: 0%;
+    column-gap: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    font-size: 20px;
+    overflow: hidden;
+    margin-top: -10%;
+
+
+}
+
+   
+
+
+}
