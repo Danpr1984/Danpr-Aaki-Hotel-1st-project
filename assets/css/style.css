@@ -444,7 +444,27 @@ h3 {
 
 }
 
+#food-bev  {
+    width: 80%;
+    
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#food-bev div{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 7px;
+    
+}
+
+#food-bev div h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
    
 
 
-}
