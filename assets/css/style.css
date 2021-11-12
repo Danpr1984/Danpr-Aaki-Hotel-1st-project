@@ -4,40 +4,29 @@
 
 body {
     font-family: 'arial-light';
-
-    background-color: blanchedalmond margin: 0;
+    margin: 0;
     padding: 0;
-    border: none;
     color: black
 }
 
-#style-header {
+
+.style-header {
 
     height: 180px;
-    
-
-
 
 }
 
-#style-header #menu {
-
-    height: 8%;
-
-
-
-}
 
 .icons {
 
-
-   display: flex;
-   flex-direction: column;
+    
+    
+    
 }
 
 
 .logo-aaki {
-    background: url("../images/Aaki\ Logo.png") no-repeat center center;
+    background: url("/assets/images/Aaki\ Logo.png") no-repeat center center;
     height: 150px;
     margin-left: 10px;
     width: 25%;
@@ -47,44 +36,28 @@ body {
 }
 
 .menu {
-
     padding: 100px;
+}
 
+.menu ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-
-}
-
-li {
-
-    margin-left: 2px;
-    width: 80%;
-    margin-right: 2px;
-    position: relative;
-    display: inline;
 }
 
 
 .menu li span {
-
-    margin-left: 3px;
-
-    clear: both;
     text-align: center;
     font-size: 16px;
-
-
 }
 
-
-
-
 ul li {
-    float: left;
+
     width: 200px;
     height: 40px;
     display: inline;
@@ -92,26 +65,23 @@ ul li {
     font-size: 20px;
     position: relative;
 
-
 }
 
+.dropdown {
+    flex-direction: column;
+}
 
 ul li ul li {
-
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     padding-top: 15px;
     height: 20px;
     display: none;
-    overflow: hidden;
-
-
 }
 
 ul li:hover ul li {
     display: block;
     background-color: rgba(255, 250, 250, 0.5);
-
 }
 
 
@@ -120,13 +90,11 @@ ul li:hover ul li {
     text-decoration: none;
     color: black;
     letter-spacing: 1px;
-
-
-
 }
 
 .contact {
     font-size: 12px;
+    border: 0.5px solid black;
 }
 
 
@@ -134,9 +102,7 @@ ul li:hover ul li {
 .menu a:hover {
     color: #fafafa;
     background-color: #5bc2e7;
-    font-size: 21px;
-
-
+    font-size: 18px;
 }
 
 .active {
@@ -156,12 +122,10 @@ ul li:hover ul li {
 }
 
 .main-image {
-    background: url(/assets/images/Aaki\ Entrance.jpg) no-repeat center center;
+    background: url("../images/Aaki\ Entrance.jpg") no-repeat center center;
     background-size: cover;
-    height: 600px;
-    width: 100%;
-
     overflow: hidden;
+    width: 100%;
 }
 
 .nahualt {
@@ -174,7 +138,7 @@ ul li:hover ul li {
     font-style: italic;
 }
 
-/*---Core Section----*/
+/*---Feel Good----*/
 
 .core {
     text-align: center;
@@ -183,12 +147,8 @@ ul li:hover ul li {
     height: 600px;
     font-size: 20px;
     overflow: hidden;
-
-
-
-
-
 }
+
 
 /*----Get here, google maps section*/
 
@@ -201,14 +161,12 @@ ul li:hover ul li {
     justify-content: center;
     align-items: center;
     margin-bottom: 15%;
-
-
-
-
 }
 
 .get-here h2 {
-    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+
 }
 
 
@@ -221,7 +179,6 @@ footer {
     background-image: url(/assets/images/Aaki\ Collage\ 2.png);
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
-
 }
 
 
@@ -237,10 +194,6 @@ footer {
     margin-left: 25%;
     float: left;
     margin-top: -5%;
-
-
-
-
 }
 
 .f-icon {
@@ -276,7 +229,7 @@ footer {
 
 }
 
-#book-me input:hover {
+.book-me input:hover {
     background-color: #5bc2e7;
     color: #fafafa;
 }
@@ -289,7 +242,7 @@ footer {
 .photos-1 {
 
     width: 100%;
-    height: 2500px;
+    
 
 }
 
@@ -323,8 +276,6 @@ hr {
     width: 400px;
     text-align: left;
     margin-left: 120px;
-
-
 }
 
 /*----Room seaview2------*/
@@ -357,20 +308,16 @@ hr {
 /*-----Amenities section-----*/
 
 .photos-1 {
-    margin-top: -20px;
+    
 }
 
-#amenities-1 {
-
+.amenities-1 {
+    display: flex;
+    justify-content: space-around;
     height: 500px;
-
-    position: relative;
-
-    margin-bottom: 10%;
-    margin-top: 10%;
-
-
-
+    margin-left: 10%;
+    
+    
 }
 
 
@@ -378,20 +325,14 @@ hr {
 
     width: 43%;
     padding-top: 12px;
-    float: left;
-    margin-left: 75px;
-
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
     margin-top: 100px;
-
-    height: 300px;
+    height: 250px;
 
 
 }
-
-
 
 .am-right {
 
@@ -399,13 +340,11 @@ hr {
     padding-top: 12px;
     float: right;
     margin-right: 75px;
-
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
     margin-top: 100px;
-
-    height: 300px;
+    height: 250px;
     display: inline;
 
 
@@ -413,37 +352,12 @@ hr {
 
 h3 {
     text-decoration-line: underline;
-
-}
-
-.am-right #wifi-info h3 {
-    color: black;
-    padding-top: 30%;
-
-}
-
-.am-left #parking h3 {
-
-    padding-top: 30%;
 }
 
 
-/*---------Bar & Restaurant--------*/
-
-.fb-photo {
-
-    margin-top: 50px;
-
-    column-count: 6;
-    line-height: 0%;
-    column-gap: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-
+    
 }
-
-    {
+ /* {
     text-align: center;
     margin: auto;
     width: 80%;
@@ -451,9 +365,27 @@ h3 {
     font-size: 20px;
     overflow: hidden;
     margin-top: -10%;
+}*/
 
 
+/*---------Bar & Restaurant--------*/
+
+ .fb-photo {
+    line-height: 0%;
+    column-gap: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    column-count: 4;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    height: 600px;
+    font-size: 20px;
+    overflow: hidden;
+    margin-top: -10%;
 }
+
 
 .food-bev {
     width: 80%;
@@ -489,11 +421,8 @@ h3 {
         line-height: 25px;
         background-color: chartreuse;
         width: 100%;
-       padding: 30px;
-        
-        
-        
-    }
+        padding: 30px;
+}
 
     .logo-aaki {
         width: 25%;
@@ -501,33 +430,30 @@ h3 {
     }
 
     .menu ul {
-        background-color: aquamarine;
-        
+        /*background-color: aquamarine;
         width: 60%;
         height: 100px;
-        float:left;
-        display:inline-end;
-        
+        float: left;
+        display: inline-end;
+*/
     }
 
-    .menu #icons {
+    /*.menu #icons {
         background-color: coral;
         width: 0%;
         position: fixed;
         text-align: center;
         margin-left: 33%;
-        
-    }
 
-    .icons span {
-        
     }
+*/
+    .icons span {}
 
     .contact {
-        
+
         display: none;
     }
-    
+
 
     .palmtrees-area {
         width: 100%;
