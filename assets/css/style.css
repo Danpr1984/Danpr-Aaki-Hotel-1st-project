@@ -12,18 +12,10 @@ body {
 
 .style-header {
 
-    height: 180px;
+    height: 140px;
+
 
 }
-
-
-.icons {
-
-    
-    
-    
-}
-
 
 .logo-aaki {
     background: url("/assets/images/Aaki\ Logo.png") no-repeat center center;
@@ -32,7 +24,6 @@ body {
     width: 25%;
     float: left;
     margin-top: 15px;
-
 }
 
 .menu {
@@ -41,7 +32,7 @@ body {
 
 .menu ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 ul {
@@ -57,18 +48,15 @@ ul {
 }
 
 ul li {
-
     width: 200px;
-    height: 40px;
-    display: inline;
     text-align: center;
     font-size: 20px;
-    position: relative;
-
 }
 
 .dropdown {
     flex-direction: column;
+
+
 }
 
 ul li ul li {
@@ -93,7 +81,7 @@ ul li:hover ul li {
 }
 
 .contact {
-    font-size: 12px;
+    font-size: 8px;
     border: 0.5px solid black;
 }
 
@@ -114,18 +102,14 @@ ul li:hover ul li {
 
 /* Main image section (other option <img src="/assets/images/Aáki sky palm tree.png" style="width: 100%;">*/
 
-.palmtrees-area {
-    width: 100%;
-    height: 100vh;
-    margin-bottom: -5%;
-    margin-top: -5%;
-}
 
 .main-image {
     background: url("../images/Aaki\ Entrance.jpg") no-repeat center center;
     background-size: cover;
     overflow: hidden;
     width: 100%;
+    height: 600px;
+    margin-top: 10%;
 }
 
 .nahualt {
@@ -146,7 +130,9 @@ ul li:hover ul li {
     width: 80%;
     height: 600px;
     font-size: 20px;
-    overflow: hidden;
+    margin-top: 15%;
+    margin-bottom: -5%;
+    
 }
 
 
@@ -240,10 +226,15 @@ footer {
 /*----Room seaview1------*/
 
 .photos-1 {
-
-    width: 100%;
     
+    width: 100%;
+    margin-top: 4%;
+    
+}
 
+.photos-1 div img {
+    border-radius: 5px;
+    
 }
 
 .photos-1 h1 {
@@ -251,7 +242,8 @@ footer {
     margin-left: 120px;
     padding-top: 60px;
     height: auto;
-
+    
+    
 }
 
 .photos-1 div {
@@ -261,16 +253,6 @@ footer {
     margin-bottom: 10px;
 
 }
-
-.photos-1 img {
-
-
-    border-radius: 5px;
-
-}
-
-
-
 
 hr {
     width: 400px;
@@ -307,84 +289,70 @@ hr {
 
 /*-----Amenities section-----*/
 
-.photos-1 {
-    
-}
+
 
 .amenities-1 {
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    width: 80%;
+    height: 600px;
     margin-left: 10%;
-    
-    
+    margin-bottom: 10%;
+    margin-top: 10%;
+
 }
 
 
 .am-left {
-
-    width: 43%;
+    width: 35%;
     padding-top: 12px;
     border: 1px solid black;
     border-radius: 5px;
-    text-align: center;
+
     margin-top: 100px;
-    height: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
 
-
+.am-left div {
+    margin: auto;
 }
 
 .am-right {
 
-    width: 43%;
+    width: 35%;
     padding-top: 12px;
-    float: right;
-    margin-right: 75px;
     border: 1px solid black;
     border-radius: 5px;
-    text-align: center;
     margin-top: 100px;
-    height: 250px;
-    display: inline;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
 
-
+.am-right div {
+    margin: auto;
 }
 
 h3 {
     text-decoration-line: underline;
-}
-
-
-    
-}
- /* {
     text-align: center;
-    margin: auto;
-    width: 80%;
-    height: 600px;
-    font-size: 20px;
-    overflow: hidden;
-    margin-top: -10%;
-}*/
-
+}
 
 /*---------Bar & Restaurant--------*/
 
- .fb-photo {
+.fb-photo {
     line-height: 0%;
     column-gap: 0px;
-    margin-left: 10px;
-    margin-right: 10px;
-    column-count: 4;
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    width: 80%;
-    height: 600px;
-    font-size: 20px;
-    overflow: hidden;
-    margin-top: -10%;
+    column-count: 6;
+    width: 100%;
+    
+    margin-top: 12%;
+    
 }
+
+
 
 
 .food-bev {
@@ -412,57 +380,43 @@ h3 {
     font-style: italic;
 }
 
-
+/*----MEDIA QUERIES------*/
 
 @media screen and (max-width: 750px) {
 
     .style-header {
-        height: 200px;
-        line-height: 25px;
-        background-color: chartreuse;
+
         width: 100%;
-        padding: 30px;
+        
 }
 
     .logo-aaki {
-        width: 25%;
-        background-color: brown;
+        
     }
 
     .menu ul {
-        /*background-color: aquamarine;
-        width: 60%;
-        height: 100px;
-        float: left;
-        display: inline-end;
-*/
-    }
+        display: flex;
+        flex-wrap: wrap;
+    
 
-    /*.menu #icons {
-        background-color: coral;
-        width: 0%;
-        position: fixed;
-        text-align: center;
-        margin-left: 33%;
-
-    }
-*/
-    .icons span {}
-
-    .contact {
-
-        display: none;
-    }
-
-
-    .palmtrees-area {
-        width: 100%;
-        background-color: burlywood;
-        margin-top: 100px;
-        height: 600px;
-    }
-
-    .main-image {
-        margin-top: 100px;
-    }
 }
+
+.menu #icons {
+       
+
+    }
+*/
+.icons span {}
+
+.contact {
+
+    display: none;
+}
+
+
+.palmtrees-area {
+   
+}
+
+.main-image {
+    
