@@ -109,7 +109,7 @@ ul li:hover ul li {
     overflow: hidden;
     width: 100%;
     height: 600px;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .nahualt {
@@ -382,7 +382,7 @@ h3 {
 
 /*----MEDIA QUERIES------*/
 
-@media screen and (max-width: 750px) {
+/*@media screen and (max-width: 750px) {
 
     .style-header {
 
@@ -405,7 +405,7 @@ h3 {
        
 
     }
-*/
+
 .icons span {}
 
 .contact {
@@ -419,4 +419,5 @@ h3 {
 }
 
 .main-image {
+    */
     
