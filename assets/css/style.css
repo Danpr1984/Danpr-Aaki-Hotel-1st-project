@@ -132,7 +132,7 @@ ul li:hover ul li {
     font-size: 20px;
     margin-top: 15%;
     margin-bottom: -5%;
-    
+
 }
 
 
@@ -162,7 +162,7 @@ ul li:hover ul li {
 footer {
     height: 150px;
     width: 100%;
-    background-image: url(/assets/images/Aaki\ Collage\ 2.png);
+    background-image: url("../images/Aaki\ Collage\ 2.png");
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
 }
@@ -226,15 +226,15 @@ footer {
 /*----Room seaview1------*/
 
 .photos-1 {
-    
+
     width: 100%;
     margin-top: 4%;
-    
+
 }
 
 .photos-1 div img {
     border-radius: 5px;
-    
+
 }
 
 .photos-1 h1 {
@@ -242,8 +242,8 @@ footer {
     margin-left: 120px;
     padding-top: 60px;
     height: auto;
-    
-    
+
+
 }
 
 .photos-1 div {
@@ -289,8 +289,6 @@ hr {
 
 /*-----Amenities section-----*/
 
-
-
 .amenities-1 {
     display: flex;
     justify-content: space-around;
@@ -299,7 +297,6 @@ hr {
     margin-left: 10%;
     margin-bottom: 10%;
     margin-top: 10%;
-
 }
 
 
@@ -308,7 +305,6 @@ hr {
     padding-top: 12px;
     border: 1px solid black;
     border-radius: 5px;
-
     margin-top: 100px;
     height: 400px;
     display: flex;
@@ -347,13 +343,10 @@ h3 {
     column-gap: 0px;
     column-count: 6;
     width: 100%;
-    
+
     margin-top: 12%;
-    
+
 }
-
-
-
 
 .food-bev {
     width: 80%;
@@ -366,7 +359,6 @@ h3 {
     text-align: center;
     margin-top: 30px;
     padding-top: 7px;
-
 }
 
 .food-bev div h3 {
@@ -380,44 +372,23 @@ h3 {
     font-style: italic;
 }
 
+#contact {
+    visibility: hidden;
+
 /*----MEDIA QUERIES------*/
 
-/*@media screen and (max-width: 750px) {
-
-    .style-header {
-
-        width: 100%;
-        
-}
-
-    .logo-aaki {
-        
+@media screen and (max-width: 750px) {
+    
+    #contact {
+        visibility: hidden;
     }
+    .menu ul{
+        background-color:beige;
+        
 
-    .menu ul {
+    }
+    .icons {
         display: flex;
-        flex-wrap: wrap;
-    
-
-}
-
-.menu #icons {
-       
-
+        flex-direction: column;
     }
-
-.icons span {}
-
-.contact {
-
-    display: none;
-}
-
-
-.palmtrees-area {
-   
-}
-
-.main-image {
-    */
-    
+        }
