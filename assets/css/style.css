@@ -11,14 +11,11 @@ body {
 
 
 .style-header {
-
     height: 140px;
-
-
 }
 
 .logo-aaki {
-    background: url("/assets/images/Aaki\ Logo.png") no-repeat center center;
+    background: url("./../images/Aaki\ Logo.png") no-repeat center center; 
     height: 150px;
     margin-left: 10px;
     width: 25%;
@@ -33,6 +30,8 @@ body {
 .menu ul {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 999999;
 }
 
 ul {
@@ -55,6 +54,7 @@ ul li {
 
 .dropdown {
     flex-direction: column;
+    transition-delay: 0.5s;
 
 
 }
@@ -63,13 +63,15 @@ ul li ul li {
     font-size: 14px;
     text-align: center;
     padding-top: 15px;
-    height: 20px;
+    height: 24px;
     display: none;
+    
 }
 
 ul li:hover ul li {
     display: block;
     background-color: rgba(255, 250, 250, 0.5);
+    
 }
 
 
@@ -91,6 +93,7 @@ ul li:hover ul li {
     color: #fafafa;
     background-color: #5bc2e7;
     font-size: 18px;
+    transition: all 0.5s linear;
 }
 
 .active {
@@ -136,7 +139,7 @@ ul li:hover ul li {
 }
 
 
-/*----Get here, google maps section*/
+/*----Get here, google maps section----*/
 
 .get-here iframe {
     height: 500px;
@@ -228,7 +231,7 @@ footer {
 .photos-1 {
 
     width: 100%;
-    margin-top: 4%;
+    margin-top: 2.5%;
 
 }
 
@@ -344,7 +347,7 @@ h3 {
     column-count: 6;
     width: 100%;
 
-    margin-top: 12%;
+    margin-top: 7.5%;
 
 }
 
@@ -373,22 +376,54 @@ h3 {
 }
 
 #contact {
-    visibility: hidden;
+    visibility: hidden;}
+
+    .menu-list {display: flex; justify-content: space-evenly;}
 
 /*----MEDIA QUERIES------*/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
+
     
-    #contact {
-        visibility: hidden;
-    }
-    .menu ul{
-        background-color:beige;
+    .logo-aaki{
+        margin-left: 40%;
         
+        float:none;
+        
+    }
+
+     .menu{
+         
+       /*  overflow: visible;
+         padding-top: 0%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+*/
 
     }
-    .icons {
+     .menu-list {
+        background-color: cornsilk;
+        margin-left: 60%;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
     }
+     
+    
+            
+           
         }
+
+        .icons{
+            display: flex;
+            flex-direction: column;
+            margin-top: -30%;
+            margin-left: 35%;
+            
+            
+        }
+    }
+
+
+
+ 
