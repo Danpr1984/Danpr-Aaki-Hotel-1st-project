@@ -378,49 +378,46 @@ h3 {
 #contact {
     visibility: hidden;}
 
-    .menu-list {display: flex; justify-content: space-evenly;}
+    
 
 /*----MEDIA QUERIES------*/
 
 @media screen and (max-width: 800px) {
 
-    
+    .style-header{
+        margin-bottom: 3%;
+    }
     .logo-aaki{
         margin-left: 40%;
-        
         float:none;
+        margin-bottom: 1%;
+    }
+
+    .menu .list {
         
-    }
+        margin-left: 40%;
+        padding:0%;
+        width:30%;
+        margin-bottom: 4%;
+        
+    } 
 
-     .menu{
-         
-       /*  overflow: visible;
-         padding-top: 0%;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-between;
-*/
-
-    }
-     .menu-list {
-        background-color: cornsilk;
-        margin-left: 60%;
-        display: flex;
-        justify-content: center;
-    }
-     
-    
-            
-           
-        }
+     .list {
+         width:60%;
+         margin-top: -25%;
+         padding-left: 8%;
+    }      
+        
 
         .icons{
             display: flex;
             flex-direction: column;
-            margin-top: -30%;
-            margin-left: 35%;
-            
-            
+            background-color: blanchedalmond;
+            justify-content: flex-start;
+        }
+
+        .main-image {
+            margin-top: 13%;
         }
     }
 
