@@ -15,7 +15,7 @@ body {
 }
 
 .logo-aaki {
-    background: url("./../images/Aaki\ Logo.png") no-repeat center center; 
+    background: url("./../images/Aaki\ Logo.png") no-repeat center center;
     height: 150px;
     margin-left: 10px;
     width: 25%;
@@ -65,13 +65,13 @@ ul li ul li {
     padding-top: 15px;
     height: 24px;
     display: none;
-    
+
 }
 
 ul li:hover ul li {
     display: block;
     background-color: rgba(255, 250, 250, 0.5);
-    
+
 }
 
 
@@ -89,12 +89,13 @@ ul li:hover ul li {
 
 
 
-.menu a:hover {
+.menu a:hover, .menu i:hover  {
     color: #fafafa;
     background-color: #5bc2e7;
     font-size: 18px;
     transition: all 0.5s linear;
 }
+
 
 .active {
     border-bottom: 1px solid rgb(39, 36, 36);
@@ -152,7 +153,7 @@ ul li:hover ul li {
     margin-bottom: 15%;
 }
 
-.get-here h2 {
+.get-here h3 {
     display: flex;
     justify-content: center;
 
@@ -171,7 +172,7 @@ footer {
 }
 
 
-.lower a:hover {
+.lower i:hover {
     background-color: #5bc2e7;
     color: #fafafa;
     font-size: 35px;
@@ -192,7 +193,7 @@ footer {
 
 }
 
-.f-icon a {
+.f-icon i {
     color: black;
     font-size: 25px;
 }
@@ -241,7 +242,7 @@ footer {
 
 }
 
-.photos-1 h1 {
+.photos-1 h3 {
     text-align: left;
     margin-left: 120px;
     padding-top: 60px;
@@ -298,14 +299,14 @@ hr {
     justify-content: space-around;
     width: 100%;
     height: 750px;
-    
+
     margin-bottom: 10%;
     margin-top: 10%;
     background-image: url("./../images/Aaki\ Front.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
     color: seashell;
 }
 
@@ -345,11 +346,13 @@ h3 {
 /*---------Bar & Restaurant--------*/
 
 .fb-photo {
-    line-height: 0%;
+    /*line-height: 0%;
     column-gap: 0px;
-    column-count: 6;
+    column-count: 6;*/
     width: 100%;
-
+    display: block;
+    float: left;
+    margin: auto;
     margin-top: 7.5%;
 
 }
@@ -379,49 +382,71 @@ h3 {
 }
 
 #contact {
-    visibility: hidden;}
+    visibility: hidden;
+}
 
-    
+
 
 /*----MEDIA QUERIES------*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
-    .style-header{
+
+    /*----Home Page---*/
+    .style-header {
         margin-bottom: 3%;
     }
-    .logo-aaki{
+
+    .logo-aaki {
         margin-left: 40%;
-        float:none;
-        margin-bottom: 1%;
+        float: none;
+        margin-bottom: 0.5%;
+        margin-top: 2%;
     }
 
-    .menu .list {
+    .menu {
+        margin-top: -6%;
+    }
+
+    .list {
+
+        height: fit-content;
+        margin-bottom: -7%;
+    }
+
+    .icons {
+        height: 23px;
+    }
+
+    .main-image {
+        margin-top: 18%;
+    }
+
+    .get-here {
+        margin-top: 80px;
+    }
+
+   .lower div {
+        height: 90px;
+    }
+
+    footer {
         
-        margin-left: 40%;
-        padding:0%;
-        width:30%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
+    }
+
+    /*---Rooms Section----*/
+
+    .photos-1 h1 {
+        color: turquoise;
+        margin-left: 20px;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+
     
-    } 
-
-     .list {
-         width:60%;
-         margin-top: -12%;
-         padding-left: 8%;
-    }      
-        
-
-        .icons{
-            display: flex;
-            flex-direction: column;
-            background-color: blanchedalmond;
-        }
-
-        .main-image {
-            margin-top: 15%;
-        }
-    }
-
-
-
- 
+}
