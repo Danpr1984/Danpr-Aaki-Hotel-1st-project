@@ -3,13 +3,17 @@
 
 
 body {
-    font-family: 'arial-light';
+    font-family: "sans-serif";
     margin: 0;
     padding: 0;
     color: black;
     background-color: rgba(247, 243, 239, 0.5);
 }
-
+.mainpage-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .style-header {
     height: 190px;
     background-color: white;
@@ -165,22 +169,29 @@ ul li:hover ul li {
 
 /*----footer-----*/
 
-footer {
+.lower {
     height: 150px;
     width: 100%;
     background-image: url("../images/Aaki\ Collage\ 2.png");
     background-color: rgba(0, 0, 0, 0.5);
-    display: block;
 }
 
-.lower i:hover {
+.footer-icons {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a:hover, footer i:hover {
     background-color: #cfe3eb;
     color: #fafafa;
     font-size: 35px;
     transition: all 0.5s linear;
 }
 
-.lower ul li {
+footer ul li {
     width: 50%;
     text-align: center;
     margin-left: 25%;
@@ -189,13 +200,19 @@ footer {
 }
 
 .f-icon {
-    margin-left: 25px;
+    width:60px;
+    text-align: center;
     font-size: 20px;
 }
+#contact{
+    width:200px;
+    text-align: center;
+}
+.f-icon i, #contact  {
 
-.f-icon i {
     color: black;
-    font-size: 25px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 /*------Style rooms.html-----*/
@@ -338,7 +355,7 @@ footer {
 .food-bev {
     width: 80%;
     margin-left: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
     overflow: auto;
     height: 800px;
     margin-top: 10px;
@@ -433,20 +450,32 @@ footer {
     #style {
          margin-right: 700px;
     }
-    
 
 
+    /*Bar & Resturant Section*/
 
-
+    .fb-photo {
+        background-image: url("./../images/Aaki\ Collage\ 2.png");
+    }
 }
 
+/*MEDIA 850*/
+
 @media screen and (max-width: 850px) {
-    
-    .menu {
-        margin-left: -20%;
+
+    .list {
+        margin-bottom: 0;
+    }
+
+    .main-list{
+        flex-direction: column;
         
-        height
+    }
+}
 
+    /*Bar & Resturant Section*/
 
+    .fb-photo {
+        background-image: url("./../images/Food\ narrow\ collage.png");
     }
 }
