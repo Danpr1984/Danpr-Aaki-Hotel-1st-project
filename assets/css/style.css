@@ -81,11 +81,6 @@ ul li:hover ul li {
     letter-spacing: 1px;
 }
 
-.contact {
-    font-size: 8px;
-    border: 0.5px solid black;
-}
-
 .menu a:hover,
 .menu i:hover {
     color: #696565;
@@ -148,6 +143,15 @@ ul li:hover ul li {
     font-style: italic;
 }
 
+
+/*----Video----*/
+
+video {
+    width:80%;
+    height:600px;
+    margin: 10%;
+    margin-top: 5%;
+}
 /*----Get here, google maps section----*/
 
 .get-here iframe {
@@ -187,7 +191,7 @@ ul li:hover ul li {
 footer a:hover, footer i:hover {
     background-color: #cfe3eb;
     color: #fafafa;
-    font-size: 35px;
+    font-size: 30px;
     transition: all 0.5s linear;
 }
 
@@ -212,7 +216,12 @@ footer ul li {
 
     color: black;
     font-size: 20px;
+    text-decoration: none; 
+}
+
+#contact > a {
     text-decoration: none;
+    color: black;
 }
 
 /*------Style rooms.html-----*/
@@ -431,9 +440,9 @@ footer ul li {
 
     /*---Rooms Section----*/
 
-    .photos-1 div img {
+    /*.photos-1 div img {
         width:750px;
-    }
+    }*/
 
     .photos-1 h3 {
         margin-left: 560px;
@@ -447,9 +456,27 @@ footer ul li {
         font-size: 20px;
     }
 
+    .main-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    .main-list .list{
+    background-color: rgba(247, 243, 239, 0.5);
+}
+
     #style {
          margin-right: 700px;
     }
+
+    .photos-1 img {
+        width: 100%;
+    }
+
+    .photos-1 h3 { 
+        visibility: hidden;
+}
 
 
     /*Bar & Resturant Section*/
@@ -459,18 +486,44 @@ footer ul li {
     }
 }
 
-/*MEDIA 850*/
-
 @media screen and (max-width: 850px) {
+
+    
+
+/*MEDIA 550*/
+
+@media screen and (max-width: 550px) {
 
     .list {
         margin-bottom: 0;
     }
 
-    .main-list{
-        flex-direction: column;
+   
+
+    .nahualt {
+        margin-left: 40%;
+        margin-top: 70%;
         
     }
+
+    .amenities-1 {
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        height:1100px;
+        
+    
+  
+        .photos-1 div img {
+            width: 90%;
+    }
+
+
+    .nahualt {
+        margin-left: 40%;
+        margin-top: 70%;
+    }
+
 }
 
     /*Bar & Resturant Section*/
@@ -478,4 +531,4 @@ footer ul li {
     .fb-photo {
         background-image: url("./../images/Food\ narrow\ collage.png");
     }
-}
+
