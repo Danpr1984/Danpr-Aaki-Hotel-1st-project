@@ -191,7 +191,7 @@ video {
 footer a:hover, footer i:hover {
     background-color: #cfe3eb;
     color: #fafafa;
-    font-size: 30px;
+    font-size: 22px;
     transition: all 0.5s linear;
 }
 
@@ -352,13 +352,31 @@ footer ul li {
 
 /*---------Bar & Restaurant--------*/
 
-.fb-photo {
-    height: 800px;
+/*.fb-photo {
+    height: 1200px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}*/
+
+.food-img {
+    
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+
+    
+    
+   /* height: 800px;
     width: 85%;
     margin: auto;
     background-image: url("./../images/Collage\ food\ dishes\ Aaki.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;*/
 }
 
 .food-bev {
@@ -401,9 +419,9 @@ footer ul li {
     }
 
     .logo-aaki {
-        margin-left: 40%;
+        margin-left: 37.5%;
         float: none;
-        margin-bottom: 0.5%;
+        margin-bottom: 1.75%;
         margin-top: 2%;
     }
 
@@ -411,10 +429,17 @@ footer ul li {
         margin-top: -6%;
     }
 
-    .list {
-        height: fit-content;
-        margin-bottom: -7%;
+    .dropdown:hover {
+        background-color:rgba(255, 250, 250, 0.9);
+        
     }
+
+    ul li ul li {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
 
     .icons {
         height: 23px;
@@ -423,6 +448,7 @@ footer ul li {
     .main-image {
         margin-top: 18%;
     }
+
 
     .get-here {
         margin-top: 80px;
@@ -440,10 +466,6 @@ footer ul li {
 
     /*---Rooms Section----*/
 
-    /*.photos-1 div img {
-        width:750px;
-    }*/
-
     .photos-1 h3 {
         margin-left: 560px;
         margin-top: 140px;
@@ -451,18 +473,20 @@ footer ul li {
     }
 
     .book-me {
-        margin-right: 510px;
+        margin-left: 800px;
         margin-top: 140px;
         font-size: 20px;
     }
 
-    .main-list{
+    .main-list {
         flex-direction: column;
-        align-items: center;
+        align-items:center;
         justify-content: flex-start;
+        gap: 2px;
         
     }
-    .main-list .list{
+
+    .main-list li, #contact {
     background-color: rgba(247, 243, 239, 0.5);
 }
 
@@ -482,13 +506,15 @@ footer ul li {
     /*Bar & Resturant Section*/
 
     .fb-photo {
-        background-image: url("./../images/Aaki\ Collage\ 2.png");
-    }
+        /*background-image: url("./../images/Aaki\ Collage\ 2.png");
+    }*/
 }
 
 @media screen and (max-width: 850px) {
+    .nahualt {
+        font-size: 20px;
+    }
 
-    
 
 /*MEDIA 550*/
 
@@ -498,11 +524,20 @@ footer ul li {
         margin-bottom: 0;
     }
 
+    .book-me {
+        margin-left: 5%;
+    }
+
+    .book-me input {
+        font-size: 12px;
+       
+
+    }
    
 
     .nahualt {
         margin-left: 40%;
-        margin-top: 70%;
+        margin-top: 90%;
         
     }
 
@@ -511,6 +546,7 @@ footer ul li {
         margin-left: 5%;
         flex-direction: column;
         height:1100px;
+    }
         
     
   
@@ -519,10 +555,7 @@ footer ul li {
     }
 
 
-    .nahualt {
-        margin-left: 40%;
-        margin-top: 70%;
-    }
+    
 
 }
 
