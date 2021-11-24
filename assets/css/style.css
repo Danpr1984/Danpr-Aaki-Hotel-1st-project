@@ -9,18 +9,21 @@ body {
     color: black;
     background-color: rgba(247, 243, 239, 0.5);
 }
+
 .mainpage-container {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
 }
+
 .style-header {
-    /*height: 190px;*/
+    height: 190px;
     background-color: white;
-    margin-bottom: 30
+    /*margin-bottom: 30
 px
-;
+;*/
 }
+
 .logo-aaki {
     background: url("./../images/Aaki\ Logo.png") no-repeat center center;
     height: 150px;
@@ -29,10 +32,11 @@ px
     float: left;
     margin-top: 15px;
 }
+
 .menu {
-    /*padding: 120px;
-    margin-bottom: 20%;*/
-    margin-bottom: 0;
+    padding: 120px;
+    margin-bottom: 20%;
+    /*margin-bottom: 0;
     padding-top: 70px;
 px
 ;
@@ -41,32 +45,41 @@ px
 ;
     padding-top: 60
 px
-;
+;*/
 }
+
 .menu ul {
     display: flex;
     justify-content: space-around;
     position: relative;
     z-index: 999999;
+   
 }
+
 ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
+
 .menu li span {
     text-align: center;
     font-size: 16px;
+   
 }
-ul li {
+
+ul li, #contact {
     width: 200px;
     text-align: center;
     font-size: 20px;
+    
 }
+
 .dropdown {
     flex-direction: column;
     transition-delay: 0.5s;
 }
+
 ul li ul li {
     font-size: 14px;
     text-align: center;
@@ -74,15 +87,19 @@ ul li ul li {
     height: 24px;
     display: none;
 }
+
 ul li:hover ul li {
     display: block;
     background-color: rgba(255, 250, 250, 0.5);
 }
+
 .menu a {
     text-decoration: none;
     color: black;
     letter-spacing: 1px;
+    
 }
+
 .menu a:hover,
 .menu i:hover {
     color: #696565;
@@ -90,9 +107,11 @@ ul li:hover ul li {
     font-size: 18px;
     transition: all 0.5s linear;
 }
+
 .active {
     border-bottom: 1px solid rgb(39, 36, 36);
 }
+
 /* Main image section (other option <img src="/assets/images/Aáki sky palm tree.png" style="width: 100%;">*/
 .main-image {
     background: url("../images/Aaki\ Entrance.jpg") no-repeat center center;
@@ -101,11 +120,12 @@ ul li:hover ul li {
     width: 100%;
     height: 600px;
     margin-top: 0px;
-/*animation for main*/
+    /*animation for main*/
     animation-name: main-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
+
 @keyframes main-zoom {
     from {
         transform: scale(0.98);
@@ -115,6 +135,7 @@ ul li:hover ul li {
         transform: scale(1.);
     }
 }
+
 .nahualt {
     background-color: rgba(91, 194, 231, 0.3);
     width: 30%;
@@ -131,9 +152,9 @@ ul li:hover ul li {
     text-align: center;
     margin: auto;
     width: 80%;
-    height: 600px;
+    height: 500px;
     font-size: 20px;
-    margin-top: 15%;
+    margin-top: 180px;
     margin-bottom: -5%;
 }
 
@@ -146,11 +167,13 @@ ul li:hover ul li {
 /*----Video----*/
 
 video {
-    width:80%;
-    height:600px;
+    width: 80%;
+    height: 600px;
     margin: 10%;
     margin-top: 5%;
 }
+
+
 /*----Get here, google maps section----*/
 
 .get-here iframe {
@@ -187,7 +210,8 @@ video {
     align-items: center;
 }
 
-footer a:hover, footer i:hover {
+footer a:hover,
+footer i:hover {
     background-color: #cfe3eb;
     color: #fafafa;
     font-size: 22px;
@@ -203,22 +227,25 @@ footer ul li {
 }
 
 .f-icon {
-    width:60px;
+    width: 60px;
     text-align: center;
     font-size: 20px;
 }
-#contact{
-    width:200px;
+
+#contact {
+    width: 200px;
     text-align: center;
 }
-.f-icon i, #contact  {
+
+.f-icon i,
+#contact {
 
     color: black;
     font-size: 20px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-#contact > a {
+#contact>a {
     text-decoration: none;
     color: black;
 }
@@ -226,15 +253,14 @@ footer ul li {
 /*------Style rooms.html-----*/
 
 .photos-1 form {
-    width:100px;
+    width: 100px;
     text-align: left;
     margin-top: -40px;
-    
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .book-me input {
-    
+
     font-size: 15px;
     border: none;
     background-color: rgba(247, 243, 239, 0.5);
@@ -283,16 +309,9 @@ footer ul li {
     text-align: center;
 }
 
-/*.terrace-header {
-    margin-bottom: 1000px;
-    width: 100%;
-}
-
-.terrace-header h3 {
-    text-align: left;
-    text-decoration: underline;
-    width: 20%;
-    margin-left: 230px;
+.photos-1 .style-button {
+    margin-bottom: -9px;
+    margin-left: 207px;
 }
 
 /*-----Amenities section-----*/
@@ -309,6 +328,10 @@ footer ul li {
     background-position: center;
     background-size: cover;
     color: seashell;
+}
+
+.amenities-1 ul li, #contact {
+    background-color: rgba(247, 243, 239, 0.5);
 }
 
 .list-left {
@@ -355,9 +378,7 @@ footer ul li {
 
 /*---------Bar & Restaurant--------*/
 
-.fb-photo {
-    
-}
+.fb-photo {}
 
 .img-area {
     display: flex;
@@ -370,18 +391,17 @@ footer ul li {
 
 
 .food-img {
-   padding:  12px 12px;
-    
-    
-}   
-   
+    padding: 12px 12px;
+}
+
 .food-bev {
     width: 80%;
     margin-left: 10%;
-    margin-bottom: 10%;
+    margin-bottom:0;
     overflow: auto;
-    height: 800px;
-    margin-top: 10px;
+    height: 750px;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .food-bev h3,
@@ -404,27 +424,30 @@ footer ul li {
     text-decoration: none;
 }
 
+.img-staff {
+    width: 80%;
+    height: 500px;
+    
+}
+
 /*----MEDIA QUERIES------*/
 
 @media screen and (max-width: 1050px) {
 
     /*----Home Page---*/
 
-    ul li ul li {
-        font-size: 14px;
-        text-align: center;
-        padding-top: 15px;
-        height: 24px;
-        /*display: none;*/
-    }
+   
+
     ul li:hover ul li {
-        display:flex;
+        display: flex;
         flex-direction: row-reverse;
-        justify-content: end;
-        background-color: rgba(255, 250, 250, 0.5);}
+        justify-content: center;
+        background-color: rgba(255, 250, 250, 0.7);
+    }
 
     .style-header {
-        margin-bottom: 3%;
+
+        margin-bottom: 30 px;
     }
 
     .logo-aaki {
@@ -435,27 +458,22 @@ footer ul li {
     }
 
     .menu {
-        margin-top: -6%;
+        margin-bottom: 0;
+        padding-top: 70px;
+        padding-bottom: 0 px;
+        padding-top: 60 px;
     }
 
-    .dropdown:hover {
-        background-color:rgba(255, 250, 250, 0.9);
-        
+    ul li, #contact {
+        background-color: rgba(247, 243, 239, 0.5);
     }
-
-    ul li ul li {
-    font-size: 13px;
-    text-align: center;
-    padding-top: 10px;
-    
-}
 
     .icons {
         height: 23px;
     }
 
-    .main-image 
-        { margin-top: 18%;
+    .main-image {
+        margin-top: 180px;
     }
 
 
@@ -467,54 +485,43 @@ footer ul li {
         height: 90px;
     }
 
-    /*footer {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }*/
-
-    /*---Rooms Section----*/
-
-    .photos-1 h3 { 
+    .photos-1 h3 {
         visibility: hidden;
-}
-    
-    /*DROPDOWN MENU NOT SHOWING ON PHOTO*/
+    }
+
     .photos-1 h3 {
         margin-left: 560px;
         margin-top: 140px;
         font-size: 20px;
     }
-    .photos-1 form  {
-        margin-left: 10px;
+
+    .photos-1 form {
+        margin-left: 12px;
+
     }
-   
     .main-list {
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         justify-content: center;
         gap: 2px;
-        
     }
-
-    .main-list li, #contact {
-    background-color: rgba(247, 243, 239, 0.5);
-}
-
-
     .photos-1 img {
         width: 100%;
     }
 
-    .photos-1 h3 { 
+    .photos-1 h3 {
         visibility: hidden;
-}
+    }
+
+    .photos-1 .style-button {
+        margin-left: 2px;
+    }
 
 
     /*Bar & Resturant Section*/
-
-   
-}
+    .img-area {
+        margin-top: 200px;
+    }
 
 @media screen and (max-width: 850px) {
     .nahualt {
@@ -522,44 +529,62 @@ footer ul li {
     }
 
 
-/*MEDIA 550*/
+    /*MEDIA 550*/
 
-@media screen and (max-width: 550px) {
+    @media screen and (max-width: 550px) {
 
-    .logo-aaki {
-        background-image: url("../images/Aaki\ Logo\ 2\ last.png");
-    }
+        .logo-aaki {
+            background-image: url("../images/Aaki\ Logo\ 2\ last.png");
+        }
 
-   .menu a {
-       font-size: 18px;
-   }
+        .menu a {
+            font-size: 18px;
+        }
 
-    .book-me {
-        margin-left: 5%;
-    }
+        .dropdown a {
+            font-size: 13px;
+        }
 
-    .book-me input {
-        font-size: 12px;
-    }
-   
+        video {
+            margin-top: 250px;
+        }
 
-    .nahualt {
-        margin-left: 40%;
-        margin-top: 90%;
-        
-    }
+        .book-me {
+            margin-left: 5%;
+        }
 
-    .amenities-1 {
-        width: 90%;
-        margin-left: 5%;
-        flex-direction: column;
-        height:1100px;
-    }
+        .book-me input {
+            font-size: 11px;
+        }
+
+
+        .nahualt {
+            margin-left: 40%;
+            margin-top: 90%;
+
+        }
+
+        .amenities-1 {
+            width: 90%;
+            margin-left: 5%;
+            flex-direction: column;
+            height: 1100px;
+        }
+
+        .list-left{
+            margin:0;
+            margin-top: 40px;
+        }
+
         .photos-1 div img {
             width: 90%;
+        }
+
+        .photos-1 form {
+            margin-left: 18px;
+        }
+        
+        .photos-1 .style-button {
+            margin-left: 25px;
+        }
     }
-}
-
-    
-
-    
