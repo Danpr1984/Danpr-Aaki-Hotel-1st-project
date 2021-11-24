@@ -15,8 +15,11 @@ body {
     margin: 0 auto;
 }
 .style-header {
-    height: 190px;
+    /*height: 190px;*/
     background-color: white;
+    margin-bottom: 30
+px
+;
 }
 .logo-aaki {
     background: url("./../images/Aaki\ Logo.png") no-repeat center center;
@@ -27,8 +30,18 @@ body {
     margin-top: 15px;
 }
 .menu {
-    padding: 120px;
-    margin-bottom: 20%;
+    /*padding: 120px;
+    margin-bottom: 20%;*/
+    margin-bottom: 0;
+    padding-top: 70px;
+px
+;
+    padding-bottom: 0
+px
+;
+    padding-top: 60
+px
+;
 }
 .menu ul {
     display: flex;
@@ -87,7 +100,7 @@ ul li:hover ul li {
     overflow: hidden;
     width: 100%;
     height: 600px;
-
+    margin-top: 0px;
 /*animation for main*/
     animation-name: main-zoom;
     animation-duration: 4s;
@@ -396,6 +409,19 @@ footer ul li {
 @media screen and (max-width: 1050px) {
 
     /*----Home Page---*/
+
+    ul li ul li {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 15px;
+        height: 24px;
+        /*display: none;*/
+    }
+    ul li:hover ul li {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+        background-color: rgba(255, 250, 250, 0.5);}
 
     .style-header {
         margin-bottom: 3%;
