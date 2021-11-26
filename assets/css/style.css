@@ -171,7 +171,7 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15%;
+    margin-bottom: 150px;
 }
 
 .get-here h3 {
@@ -386,6 +386,7 @@ footer ul li {
     margin-bottom: 0;
 }
 
+
 .food-bev h3,
 .food-bev p {
     font-size: 20px;
@@ -403,16 +404,77 @@ footer ul li {
 .food-bev div h3 {
     font-size: 16px;
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .img-staff {
     width: 100%;
     height: 400px;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
+    font-size: 30px;
+    font-style: italic;
 
 }
+
+
+/*------------BOOK-ME FORM-----------*/
+
+.form-section {
+    clear: left;
+    background: url("./../images/palmtrees.png");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+.book-form{ 
+    margin: 150px 0;
+    color: black;
+    background-color:rgba(247, 243, 239, 0.5);
+    max-width:500px;
+    position:absolute;
+    left:7%;
+    padding:30px;
+    font-size: 20px;
+}
+
+.book-form h2 {
+    color:black;
+    margin-bottom:20px;
+}
+    
+.text-input { 
+    background:transparent;
+    color: black;
+    width:100%;
+    height:25px;
+    margin:5px 0 25px 0;
+    border:1px solid #fafafa;
+    border-radius:2px;
+}
+
+.text-input:hover {
+    border-color: rgb(112, 111, 109);
+}
+
+.book-button {
+    margin-top:20px;
+    border-radius:2px;
+    padding: 15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color:rgb(112, 111, 109);
+    color:black;
+    display:block;
+}
+
+.book-button:hover {
+    color: #696565;
+    background-color: #cfe3eb;
+    font-size: 18px;
+    transition: all 0.5s linear;
+}
+
 
 /*----MEDIA QUERIES 1050px------*/
 
@@ -423,7 +485,7 @@ footer ul li {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        background-color: rgba(255, 250, 250, 0.7);
+        background-color: rgba(255, 250, 250, 0.5);
     }
 
     .style-header {
@@ -444,7 +506,7 @@ footer ul li {
         padding-top: 60 px;
     }
 
-    ul li,
+    .style-header ul li,
     #contact {
         background-color: rgba(247, 243, 239, 0.5);
     }
@@ -504,6 +566,11 @@ footer ul li {
         margin-top: 200px;
     }
 
+
+    .form-section {
+        margin-top: 250px;
+    }
+
     /*----MEDIA QUERIES 850px------*/
 
     @media screen and (max-width: 850px) {
@@ -511,9 +578,19 @@ footer ul li {
             font-size: 20px;
         }
 
-        .img-staff {
+        .img-staff{
+            margin-top: 150px;
+            margin-bottom: 150px;
+            height:200px;
+        }
+
+        .img-staff img {
             width:90%;
-            margin:0 auto;
+        }
+
+        .form-section .book-form {
+            width: 60%;
+            margin-left:5%;
         }
 
         /*MEDIA 550*/
@@ -559,6 +636,7 @@ footer ul li {
                 margin-left: 5%;
                 flex-direction: column;
                 height: 1100px;
+                font-size: 18px;
             }
 
             .list-left {
@@ -575,6 +653,10 @@ footer ul li {
             }
 
             .photos-1 .style-button {
-                margin-left: 25px;
+                margin-left: 20px;
+            }
+
+            .photos-1 .terrace-header{
+                margin-top: 200px;
             }
         }
