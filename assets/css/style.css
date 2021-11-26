@@ -24,7 +24,7 @@ body {
 }
 
 .logo-aaki {
-    background: url("./../images/Aaki\ Logo.png") no-repeat center center;
+    background: url("./../images/aakilogo-1.png") no-repeat center center;
     height: 150px;
     margin-left: 10px;
     width: 25%;
@@ -103,7 +103,7 @@ ul li:hover ul li {
 
 /* Main image section*/
 .main-image {
-    background: url("../images/Aaki\ Entrance.jpg") no-repeat center center;
+    background: url("../images/aakientrance.jpg") no-repeat center center;
     background-size: cover;
     overflow: hidden;
     width: 100%;
@@ -185,7 +185,7 @@ video {
 .lower {
     height: 150px;
     width: 100%;
-    background-image: url("../images/Aaki\ Collage\ 2.png");
+    background-image: url("../images/aaki-collage2.png");
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -309,7 +309,7 @@ footer ul li {
     height: 600px;
     margin-bottom: 10%;
     margin-top: 10%;
-    background-image: url("./../images/Aaki\ Front.jpg");
+    background-image: url("./../images/aakifront.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -598,7 +598,7 @@ footer ul li {
         @media screen and (max-width: 550px) {
 
             .logo-aaki {
-                background-image: url("../images/Aaki\ Logo\ 2\ last.png");
+                background-image: url("../images/aakilogo-2.png");
             }
 
             .menu a {
