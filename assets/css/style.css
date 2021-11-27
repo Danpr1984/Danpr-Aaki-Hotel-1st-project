@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&display=swap');
 
 
 body {
@@ -121,7 +121,7 @@ ul li:hover ul li {
     }
 
     to {
-        transform: scale(1.);
+        transform: scale(1.0);
     }
 }
 
@@ -489,7 +489,7 @@ footer ul li {
     }
 
     .style-header {
-        margin-bottom: 30 px;
+        margin-bottom: 30px;
     }
 
     .logo-aaki {
@@ -501,9 +501,8 @@ footer ul li {
 
     .menu {
         margin-bottom: 0;
-        padding-top: 70px;
-        padding-bottom: 0 px;
-        padding-top: 60 px;
+        padding-top: 60px;
+        padding-bottom: 0px;
     }
 
     .style-header ul li,
@@ -570,6 +569,7 @@ footer ul li {
     .form-section {
         margin-top: 250px;
     }
+}
 
     /*----MEDIA QUERIES 850px------*/
 
@@ -592,10 +592,16 @@ footer ul li {
             width: 60%;
             margin-left:5%;
         }
+    }
 
         /*MEDIA 550*/
 
         @media screen and (max-width: 550px) {
+
+            .food-bev{
+                    width: 100%;
+                    margin-left: 0%;
+            }
 
             .logo-aaki {
                 background-image: url("../images/aakilogo-2.png");
