@@ -103,7 +103,7 @@ ul li:hover ul li {
 
 /* Main image section*/
 .main-image {
-    background: url("../images/aakientrance.jpg") no-repeat center center;
+    background: url("../images/aaki-entrance3.jpg") no-repeat center center;
     background-size: cover;
     overflow: hidden;
     width: 100%;
@@ -174,7 +174,7 @@ video {
     margin-bottom: 150px;
 }
 
-.get-here h3 {
+.get-here h1 {
     display: flex;
     justify-content: center;
 }
@@ -185,7 +185,7 @@ video {
 .lower {
     height: 150px;
     width: 100%;
-    background-image: url("../images/aaki-collage2.png");
+    background-image: url("../images/aaki-collage-footer2.png");
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -239,20 +239,28 @@ footer ul li {
 
 /*------Style rooms.html-----*/
 
-.photos-1 form {
+.photos-1 .book-me {
     width: 100px;
     text-align: left;
     margin-top: -40px;
     margin-left: 80px;
 }
 
-.book-me input {
+.photos-1 a:hover {
+    background-color: #cfe3eb;
+    color: #fafafa;
+    font-size: 16px;
+    transition: all 0.5s linear;
+}
+/*.book-me input*/ .photos-1 a {
     font-size: 15px;
     border: none;
-    background-color: rgba(247, 243, 239, 0.5);
+    background-color: rgba(153, 150, 147, 0.5);
+    text-decoration: none;
+    color: black;
 }
 
-.book-me input:hover {
+.photos-1 .book-me:hover {
     background-color: #cfe3eb;
     color: #696565;
     transition: all 0.5s linear;
@@ -296,7 +304,6 @@ footer ul li {
 }
 
 .photos-1 .style-button {
-    margin-bottom: -9px;
     margin-left: 207px;
 }
 
@@ -537,7 +544,7 @@ footer ul li {
         font-size: 20px;
     }
 
-    .photos-1 form {
+    .photos-1 .book-me {
         margin-left: 12px;
 
     }
@@ -623,11 +630,11 @@ footer ul li {
                 width: 50px;
             }
 
-            .book-me {
+            .photos-1 .book-me {
                 margin-left: 5%;
             }
 
-            .book-me input {
+            .photos-1 a {
                 font-size: 11px;
             }
 
@@ -659,10 +666,8 @@ footer ul li {
             }
 
             .photos-1 .style-button {
-                margin-left: 20px;
+                margin-left: 27px;
             }
 
-            .photos-1 .terrace-header{
-                margin-top: 200px;
-            }
         }
+
