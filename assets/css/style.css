@@ -487,6 +487,10 @@ footer ul li {
 
 @media screen and (max-width: 1050px) {
 
+    .main-image {
+        background: url("../images/aaki-entrance3.jpg") no-repeat right center;
+    }
+
 
     ul li:hover ul li {
         display: flex;
@@ -519,6 +523,12 @@ footer ul li {
 
     .icons {
         height: 23px;
+    }
+
+    li.icons span {
+        margin-right: 15px;
+    
+        margin-left: 15px;
     }
 
     .main-image {
@@ -641,7 +651,6 @@ footer ul li {
             .photos-1 a {
                 font-size: 11px;
             }
-
 
             .nahualt {
                 margin-left: 40%;
