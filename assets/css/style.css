@@ -605,13 +605,17 @@ footer ul li {
 
         @media screen and (max-width: 550px) {
 
+            .main-image {
+                background-image: url("../images/aaki-entrance2.jpg");
+            }
+
             .food-bev{
                     width: 100%;
                     margin-left: 0%;
             }
 
             .logo-aaki {
-                background-image: url("../images/aakilogo-2.png");
+                background-image: url("./../images/aakilogo-2.png");
             }
 
             .menu a {
@@ -667,6 +671,10 @@ footer ul li {
 
             .photos-1 .style-button {
                 margin-left: 27px;
+            }
+
+            .wifi-info h3, .parking h3 {
+                font-size: 18px;
             }
 
         }
