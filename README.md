@@ -61,7 +61,7 @@
 
  * The Core section, the feel good hotel, introduces our guests with a nice core values text that carefuly describes  what the hotel offers and what your experience would be like if someone were to visit the hotel. 
 
- ! [Core-image](assets/images/core.png)
+  ![Core-image](assets/images/core.png)
 
  * The Video introduces a powerful footage of the hotel edited with adventorous music. The video shows a girl experiencing every corner of the hotel. From the modern design at the entrance, to the beach front experience, to the Seaview with balcony room, to the pool area. It also shows her enjoying some of the food and beverage the hotel offers. This video transmits a lot of the Aáki Hotel experience. 
 
