@@ -13,7 +13,7 @@
 
 ### Aáki Hotel
 
-* The hotel is a bouqitue that consists of nine rooms, a pool area, a bar and a restaurant. The hotel stands out from the rest in the area for the desing, the facilities, quality of its offer and its services. The website tries to keep a light tone in order to make it enjoyable for the users. 
+* The hotel is a bouqitue that consists of nine rooms, a pool area, a bar and a restaurant. The hotel stands out from the rest in the area for the desing, the facilities, quality of its offer and its services. The website tries to keep a light tone in order to make it enjoyable for the users. There is information regarding what are the key points users are looking for while searching for a hotel. Considering some of theses points, I developed a very efficient page. 
 
 ### User Stories
 * As a user I want to easily find general information about the hotel.
@@ -41,7 +41,7 @@
 
   ![Navigation](assets/images/displayed-menu.png)  
   
-                                    ![Dropdown](assets/images/dropdown-menu.png)
+    ![Dropdown](assets/images/dropdown-menu.png)
   
 
 
@@ -69,7 +69,7 @@
 
 ![video-gethere-image](assets/images/video-map.png)
 
- * Get Here iframe shows a google maps that will clearly show where the hotel is at. Location, or how to get there is one of the most important questions guests have, so considering this I added a map on the main page due to its importance.   
+ * Get Here iframe shows a google maps that will clearly show where the hotel is located. Instructions on how to get there is one of the most important questions guests have, so considering this I added a map on the main page due to its importance.   
   
  
  ###  Rooms Pages 
