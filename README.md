@@ -201,7 +201,7 @@ I also tested the site with the Chrome and Firefox developer tools to simulate t
   * Under the GitHub Pages from the source section drop-down menu, select the master branch 
   * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-  The live link can be found here - 
+  The live link can be found here - https://danpr1984.github.io/Danpr-Aaki-Hotel-1st-project/
 
   ## Credits
 
