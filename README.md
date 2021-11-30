@@ -10,10 +10,9 @@
 
  ## Features
 
+ ### Common Features to all pages
 
- ### Common Features 
-
- ## Navigation
+ ### Navigation
 
  * The navigation bar features a common design across all five pages in keeping with convention with a logo on the left hand size and the navigation links on the center and right.
   * The navigation bar includes links on the logo, Home, Rooms, Eat & Drink, and linkable social media icons and email address. The various title links head to their respective pages for easy navigation. The logo links back to the homepage as a typical shortcut users will likely be familiar with.
@@ -22,12 +21,12 @@
   * A dropdown menu appears when clicking on the Rooms link with the five different types of rooms the hotel rents. 
 
 
-  ## Footer
+  ### Footer
 
   * Each page includes a common footer split into two sections. The top section contains social media icons with email address and the lower section contains a background photo that consists on a collage of photos of different areas of the hotel. 
 
 
- ## Home Page 
+ ### Home Page 
 
  * The Home Page main image section introduces the hotel with a wide open image of the entrance where you can see through the building all the way to the ocean. Text overlays on the image with the meaning of the word Aáki. All together, this gives you a cozy feeling and a pretty good hint of what the experience could be like at Aáki Hotel.
 
@@ -38,7 +37,7 @@
  * Get Here iframe shows a google maps that will clearly show where the hotel is at. Location, or how to get there is one of the most important questions guests have, so considering this I added a map on the main page due to its importance.   
   
 
- ##  Rooms Pages 
+ ###  Rooms Pages 
 
 * The Rooms option on the menu will dropdown a list with the different room types Aáki Hotel offers. Every room page shows two to three high quality images from that specific room type. 
 
@@ -54,11 +53,11 @@
 
 * Above, on the top left of every first image in every Room´s page, there is a Book Me button that will direct the user to a book form. This form is a basic form that in the future will be adjusted with proper JavScript and linked to a real booking system. 
 
- ### Amenities section
+ #### Amenities section
 
  * Every Room page offers two unordered lists that contain general information as well as the amenities the rooms offer. They are contained in a section with a bacground image that projects in black and white the hotel from the front side. 
 
- ## Book Me Page
+ ### Book Me Page
 
  * The Book Me form section contains a form where the guests can book their stay. It requires a name, an email address, a room type, a dates and amount of guests options. 
 
@@ -68,7 +67,7 @@
 
 
 
-## Thank You Page 
+### Thank You Page 
 
 * This page contains a pretty straight forward Thank You section that shows every time a guest submits a booking in the Book Me page. This message thanks the guests for their booking and tells them that a confirmation email has been sent to the email account that has been provided. 
 
@@ -85,3 +84,11 @@
 * As the organisation we want to promote direct bookings avoiding intermediaries.
 * As the organisation we want to promote our social media channels that offer almost infinite content.
 * As the organisation we want to be able to tell a nice story about what the Aáki Hotel experience is all about.
+
+### Testing
+
+For this sites testing, I took a very close approach of trial and error to every feature in every page. I developed the different features making sure they all made sense together in an holistic way. I wanted to keep the functionality very clean and very straight forward. I tested different options regarding the header menu and its resposiveness. Visualizing what was the right combination of practicity and cleanliness. I constantly adjusted the seizes and changed from floats to flex-box for a better organization of my menu items. 
+
+One of my main concerns has been the rooms dropdown menu that over flows over the images. In order to keep the images visible I added some transparency to the dropdown which results, in my opinion, in a clean and cool feature, specially when the width goes under 1050px and the menu transforms into a column. 
+
+I constantly used Chromes developer tools to try different options and make the right adjustments. I believe hotel web pages should have a large amount of visual content, from facilities, to food and beverage; this is why this web contains a lot of images that were reseized and adjusted to be visually attractive on responsive design as well as on a wider screen. 
