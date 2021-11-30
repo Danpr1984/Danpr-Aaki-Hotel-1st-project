@@ -103,6 +103,17 @@
 
 ![Thankyou-message](assets/images/confirmation-message.png)
 
+### Eat and Drink
+
+* This page shows very graphic footage of the quality of the food and drinks products served at Aáki Hotel. It also contains a concept note describing where the menu takes its inspiration from. Food and Beverage represents a big part of the sales at the business, so it was very important to show a lot of what it´s offered at the hotel. 
+
+![Food-drinks-image](assets/images/eat-drink.png)
+
+
+* On the lower part of this page, there is a Welcome header message together with a photo of the staff at Aáki Hotel. 
+
+![Staff-image](assets/images/aaki-staff.png)
+
 ### Features Left to Implement
 
 * A Things to Do page will be added in the future with some direct booking links to all the different activites that the guests can do when they are staying at Aáki Hotel. 
