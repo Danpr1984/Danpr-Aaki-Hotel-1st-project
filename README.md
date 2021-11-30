@@ -74,7 +74,13 @@
 ### Features Left to Implement
 
 * A Things to Do page will be added in the future with some direct booking links to all the different activites that the guests can do when they are staying at Aáki Hotel. 
+* A Serch option
 
+## UX 
+
+### Aáki Hotel
+
+* The hotel is a bouqitue that consists of nine rooms, a pool area, a bar and a restaurant. The hotel stands out from the rest in the area for the desing, the facilities, quality of its offer and its services. The website tries to keep a light tone in order to make it enjoyable for the users. 
 
 ### User Stories
 * As a user I want to easily find general information about the hotel.
@@ -84,6 +90,8 @@
 * As the organisation we want to promote direct bookings avoiding intermediaries.
 * As the organisation we want to promote our social media channels that offer almost infinite content.
 * As the organisation we want to be able to tell a nice story about what the Aáki Hotel experience is all about.
+
+I 
 
 ### Testing
 
@@ -128,5 +136,47 @@ I also utilised the Chrome and Firefox developer tools to simulate the display o
 
 * Style.css ![Style.css](assets/images/css-validator.png)
 
+# Lighthouse
+
+* I have used the developer tools lighthouse option to create reports to measure different indicators for both mobile and desktop. 
+* For the desktop report, the performance score was of 59 as a result of very heavy images. I used the Tiny PNG compressor tool to compress the images. ![Desktop-lighthouse](assets/images/lighthouse-desktop.png).
+* For the mobile report I had a low score as well in the performance and I tried a few tests incognito and the results came similar to the desktop results. ![Mobile-lighthouse](assets/images/lighthouse-mobile.png).
+
+  ## Deployment 
+ 
+* The site was deployed to GitHub pages. the steps to deploy are as follows: 
+
+  * In the GitHub repository, navigate to the settings tab
+  * Under the GitHub Pages from the source section drop-down menu, select the master branch 
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+  The live link can be found here - 
+
+  ## Credits
+
+  ### Content
+    
+    * As owner of the existing Áaki Hotel, I developed the content of this page following a design line decided by myself. 
+    * The text was all written by myself.
+    * Instructions on how to implement a form were taken from The Love Running project from CODE INSTITUTE.
+    * Instructions on how to use felx-box were taken from https://mattbcoding.github.io/ci-webinar-positioning-flex/flex.html. and from Kevin Powell´s https://www.youtube.com/watch?v=R7gqJkdc5dM&t=1329s&ab_channel=KevinPowell
+    * Instructions on how to write the README.md were taken from https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax and from https://github.com/MattBCoding/leinster-trophy
+    * The icons used for the logo, bookmark link, download button and in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
+### Media
+
+*   All of the media images, the video, the logo used in this site belongs to Aáki Hotel which is of my property so I am entitled to use them. 
+* The iframed map in the Get-Here section belongs to Google Maps.
+
+
+
+
+    
+
+
+
+
+
+ 
+  
