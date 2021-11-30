@@ -39,7 +39,9 @@
 
 
 
-  ![Navigation](assets/images/displayed-menu.png)  ![Dropdown](assets/images/dropdown-menu.png)
+  ![Navigation](assets/images/displayed-menu.png)  
+  
+                                    ![Dropdown](assets/images/dropdown-menu.png)
   
 
 
