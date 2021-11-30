@@ -7,7 +7,9 @@
 
  ![VIEWPORTS!](assets/images/aakiweb-viewports.png)
 
+
  ## UX 
+
 
 ### Aáki Hotel
 
@@ -22,6 +24,7 @@
 * As the organisation we want to promote our social media channels that offer almost infinite content.
 * As the organisation we want to be able to tell a nice story about what the Aáki Hotel experience is all about.
 
+
  ## Features
 
  ### Common Features to all pages
@@ -34,6 +37,8 @@
   * An underline appears on the active page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
   * A dropdown menu appears when clicking on the Rooms link with the five different types of rooms the hotel offers. 
 
+
+
   ![Navigation](assets/images/displayed-menu.png)  ![Dropdown](assets/images/dropdown-menu.png)
   
 
@@ -42,7 +47,11 @@
 
   * Each page includes a common footer split into two sections. The top section contains social media icons with email address and the lower section contains a background photo that consists on a collage of photos of different areas of the hotel. 
 
+
+
     ![Footer](assets/images/footer.png)
+
+
 
  ### Home Page 
 
@@ -63,6 +72,7 @@
  
  ###  Rooms Pages 
 
+
 * The Rooms option on the menu will dropdown a list with the different room types Aáki Hotel offers. Every room page shows two to three high quality images from that specific room type. 
 
 ![Room-book-image](assets/images/roommenu-book.png)
@@ -72,6 +82,7 @@
 #### Terrace Room Page 
 #### Family Room Page 
 #### Balcony Room Page
+
 
 ### Common features in the Room´s pages
 
@@ -83,7 +94,10 @@
 
  * Every Room page offers two unordered lists that contain general information as well as the amenities the rooms offer. They are contained in a section with a bacground image that projects in black and white the hotel from the front side. 
 
+
   ![Amenities-image](assets/images/amenities-photo.png)
+
+
 
  ### Book Me Page
 
@@ -93,6 +107,7 @@
 
  * The form section has a background image  of a palm tree and an elegant architectural design that combines wood and nature. 
 
+
  ![Bookme-image](assets/images/booking-form.png)
 
 
@@ -101,24 +116,32 @@
 
 * This page contains a pretty straight forward Thank You section that shows every time a guest submits a booking in the Book Me page. This message thanks the guests for their booking and tells them that a confirmation email has been sent to the email account that has been provided. 
 
+
 ![Thankyou-message](assets/images/confirmation-message.png)
+
 
 ### Eat and Drink
 
 * This page shows very graphic footage of the quality of the food and drinks products served at Aáki Hotel. It also contains a concept note describing where the menu takes its inspiration from. Food and Beverage represents a big part of the sales at the business, so it was very important to show a lot of what it´s offered at the hotel. 
 
+
 ![Food-drinks-image](assets/images/eat-drink.png)
+
 
 
 * On the lower part of this page, there is a Welcome header message together with a photo of the staff at Aáki Hotel. 
 
+
 ![Staff-image](assets/images/aaki-staff.png)
+
 
 ### Features Left to Implement
 
 * A Things to Do page will be added in the future with some direct booking links to all the different activites that the guests can do when they are staying at Aáki Hotel. 
 * A Serch option.
 * A proper form with JavaScript.
+* Sliding images at the main image section. Instead of having one image, I would like to see a slide of 4 different images
+* A small booking form overflowing on the main image at the Home Page.
 
 
 ### Testing
