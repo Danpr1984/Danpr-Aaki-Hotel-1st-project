@@ -27,7 +27,7 @@
   * Each page includes a common footer split into two sections. The top section contains social media icons with email address and the lower section contains a background photo that consists on a collage of photos of different areas of the hotel. 
 
 
- ## Home Page Features
+ ## Home Page 
 
  * The Home Page main image section introduces the hotel with a wide open image of the entrance where you can see through the building all the way to the ocean. Text overlays on the image with the meaning of the word Aáki. All together, this gives you a cozy feeling and a pretty good hint of what the experience could be like at Aáki Hotel.
 
@@ -38,20 +38,19 @@
  * Get Here iframe shows a google maps that will clearly show where the hotel is at. Location, or how to get there is one of the most important questions guests have, so considering this I added a map on the main page due to its importance.   
   
 
- ##  Room Pages Features
+ ##  Rooms Pages 
 
-* The Rooms option on the menu will dropdown a list with the different room types Aáki Hotel offers. Every room page shows two to three high quality images from the room type. 
+* The Rooms option on the menu will dropdown a list with the different room types Aáki Hotel offers. Every room page shows two to three high quality images from that specific room type. 
 
-### Seaview Room 2 Page 
-### Terrace Room Page 
-### Family Room Page 
-### Balcony Room Page
-### Eat & Drink Page
-### Book Me Page 
+#### Seaview Room Page
+#### Seaview Room 2 Page 
+#### Terrace Room Page 
+#### Family Room Page 
+#### Balcony Room Page
 
 ### Common features in the Room´s pages
 
-### Book Me 
+### Book Me clickable
 
 * Above, on the top left of every first image in every Room´s page, there is a Book Me button that will direct the user to a book form. This form is a basic form that in the future will be adjusted with proper JavScript and linked to a real booking system. 
 
@@ -59,17 +58,30 @@
 
  * Every Room page offers two unordered lists that contain general information as well as the amenities the rooms offer. They are contained in a section with a bacground image that projects in black and white the hotel from the front side. 
 
+ ## Book Me Page
+
+ * The Book Me form section contains a form where the guests can book their stay. It requires a name, an email address, a room type, a dates and amount of guests options. 
+
+ * At the bottom of the form there is a Confirm Booking button that will take you to the thank you page. Eventually, with Java Script, the for will be replaced with a proper booking system and linked to the hotel´s reservations channel manager. 
+
+ * The form section has a background image  of a palm tree and an elegant architectural design that combines wood and nature. 
 
 
-### Thank You Page Features
 
+## Thank You Page 
+
+* This page contains a pretty straight forward Thank You section that shows every time a guest submits a booking in the Book Me page. This message thanks the guests for their booking and tells them that a confirmation email has been sent to the email account that has been provided. 
+
+### Features Left to Implement
+
+* A Things to Do page will be added in the future with some direct booking links to all the different activites that the guests can do when they are staying at Aáki Hotel. 
 
 
 ### User Stories
-* As a user I want to easily find information about the next race.
-* As a user I want to easily find information about past winners of the race wherever I am.
-* As a user I want to easily find out about the history of the trophy.
-* As a user I want to easily contact someone about the race.
-* As the organisation we want to promote the trophy and increase its prestige.
-* As the organisation we want to promote our social media channels.
-* As the organisation we want to be able to market directly to interested parties in a cost effective manner.
+* As a user I want to easily find general information about the hotel.
+* As a user I want to easily find visual content that shows as much as possible about the facilities.
+* As a user I want to easily find out more about the hotel through social media icons that take me to different social media content where I can learn more about the hotel. 
+* As a user I want to easily contact through phone or email someone about booking a stay
+* As the organisation we want to promote direct bookings avoiding intermediaries.
+* As the organisation we want to promote our social media channels that offer almost infinite content.
+* As the organisation we want to be able to tell a nice story about what the Aáki Hotel experience is all about.
