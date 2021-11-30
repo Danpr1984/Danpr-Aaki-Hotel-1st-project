@@ -92,3 +92,41 @@ For this sites testing, I took a very close approach of trial and error to every
 One of my main concerns has been the rooms dropdown menu that over flows over the images. In order to keep the images visible I added some transparency to the dropdown which results, in my opinion, in a clean and cool feature, specially when the width goes under 1050px and the menu transforms into a column. 
 
 I constantly used Chromes developer tools to try different options and make the right adjustments. I believe hotel web pages should have a large amount of visual content, from facilities, to food and beverage; this is why this web contains a lot of images that were reseized and adjusted to be visually attractive on responsive design as well as on a wider screen. 
+
+Testing was performed with the following devices/browsers:
+  * MacBook Air computer: 1280 x 800 
+    * Google Chrome
+    * Firefox
+    * Microsoft Edge
+    * Kindle Fire HDX: 800 x 1200
+  * iPad Air: 1536 x 2048 display
+    * iOS Safari
+  * iPhone 11 x pro: 414 x 896 display
+    * iOS Safari
+
+I also utilised the Chrome and Firefox developer tools to simulate the display on other devices and test the responsiveness of the site.
+
+
+
+### Validator Testing
+
+* HTML 
+
+* No errors returned when passing through the official W3C Validator.
+
+* Index.html ![Index.html](assets/images/index-page.png)
+* Seaview1.html ![Seaview1.html](assets/images/seaviewroom-page.png)
+* Seaview2.html ![Seaview2.html](assets/images/seaview2-page.png)
+* Terrace.html ![Terrace.html](assets/images/terrace-page.png)
+* Balcony.html ![Balcony.html](assets/images/balconyroom-page.png)
+* Family.html ![Family.html](assets/images/familyroom-page.png)
+* Bookme.html ![Bookme.html](assets/images/bookme-page.png)
+* Thankyou.html ![Thankyou.html](assets/images/thankyou-page.png)
+* Eatanddrink.html ![Eatanddrink.html](assets/images/eatanddrink-page.png)
+
+* CSS 
+
+* Style.css ![Style.css](assets/images/css-validator.png)
+
+
+
