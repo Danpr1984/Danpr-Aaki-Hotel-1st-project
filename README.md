@@ -35,13 +35,13 @@
   * The navigation bar includes links on the logo, Home, Rooms, Eat & Drink, and linkable social media icons and email address. The various title links head to their respective pages for easy navigation. 
   * The navigation bar is fully responsive, for smaller screens, the format of the bar changes to a column orientation with the logo at the top centered on the page and the title links vertically aligned underneath. For tablets and screens in between there is a staggered change through the use of media queries in order to maximise its size.
   * An underline appears on the active page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
-  * A dropdown menu appears when clicking on the Rooms link with the five different types of rooms the hotel offers. 
-
-
 
   ![Navigation](assets/images/displayed-menu.png)  
-  
-    ![Dropdown](assets/images/dropdown-menu.png)
+
+
+  * A dropdown menu appears when clicking on the Rooms link with the five different types of rooms the hotel offers. 
+
+  ![Dropdown-image](assets/images/dropdown-long.png)
   
 
 
