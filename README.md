@@ -1,5 +1,7 @@
-# Aáki Hotel
 ![LOGO!](assets/images/aakilogo-1.png)
+
+# Aáki Hotel 
+
  
 
  The Aáki Hotel website has been created with the purpose of operating as the website of Aáki Hotel. Located in the pacific coast of Nicaragua. The Hotel opened in 2017 and has been missing this website ever since. The main objective of this website is to offer travelers the oportunity to book a room at Aáki Hotel directly, avoinding any type of intermediaries. 
@@ -16,10 +18,7 @@
 
   * Footer 
 
-  * Each page includes a common footer split into two sections.
-  
-
-  * Footer - Bottom
+  * Each page includes a common footer split into two sections. The top section contains social media icons and the lower section contains a background photo that consists on a collage of photos of different areas of the hotel. 
 
 
  ### Home Page Features
@@ -33,13 +32,28 @@
 ### Terrace Room Page Features
 
 
+
 ### Family Room Page Features
+
 
 
 
 ### Balcony Room Page Features
 
+
+
+
 ### Eat & Drink Page Features
+
+
+
+
+### Book Me Page Features 
+
+
+
+
+### Thank You Page Features
 
 
 
