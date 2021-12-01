@@ -237,6 +237,13 @@ footer ul li {
     color: black;
 }
 
+.lower >p {
+    text-align: center;
+    padding-top: 135px;
+    color:white;
+    text-decoration: solid;
+    font-weight: 600;
+}
 /*------Style rooms.html-----*/
 
 .photos-1 .book-me {
