@@ -210,7 +210,7 @@ I also tested the site with the Chrome and Firefox developer tools to simulate t
   ### Content
     
     * As owner of the existing Áaki Hotel, I developed the content of this page following a design line decided by myself. 
-    * The text was all written by myself.
+    * The text was all written by myself and I took the general information and amenities text from https://www.booking.com/hotel/ni/aaki.es.html?aid=318615;label=English_Sweden_EN_SE_29561953825-X1XV3iL57zIMOHyouN4KkgS217247017863%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi22761050535%3Atidsa-331215073644%3Alp9062460%3Ali%3Adec%3Adm;sid=f9b1c3427c3da2c411a0b3c87ad4b725;dest_id=-1112872;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=0;hpos=0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1638378305;srpvid=341c7820463f0114;type=total;ucfs=1&#hotelTmpl
     * Instructions on how to implement a form were taken from The Love Running project from CODE INSTITUTE.
     * Instructions on how to use felx-box were taken from https://mattbcoding.github.io/ci-webinar-positioning-flex/flex.html. and from Kevin Powell´s https://www.youtube.com/watch?v=R7gqJkdc5dM&t=1329s&ab_channel=KevinPowell
     * Instructions on how to write the README.md were taken from https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax and from https://github.com/MattBCoding/leinster-trophy
