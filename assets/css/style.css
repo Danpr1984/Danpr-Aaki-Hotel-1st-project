@@ -614,6 +614,10 @@ footer ul li {
             height:200px;
         }
 
+        .img-staff {
+            margin-bottom: 400px;
+        }
+
         .img-staff img {
             width:90%;
         }
@@ -622,6 +626,7 @@ footer ul li {
             width: 60%;
             margin-left:5%;
         }
+
     }
 
         /*MEDIA 550*/
